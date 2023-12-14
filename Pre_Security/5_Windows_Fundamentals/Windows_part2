@@ -1,9 +1,62 @@
 ## System Configuration
 
 The System Configuration utility (MSConfig) is for advanced troubleshooting, and its main purpose is to help diagnose startup issues. 
-Reference the following document here() for more information on the System Configuration utility. 
+Reference the following document here(7) for more information on the System Configuration utility. 
 As you can see, Microsoft advises using Task Manager (taskmgr) to manage (enable/disable) startup items. The System Configuration utility is NOT a startup management program. 
 Note: If you open Task Manager for the attached VM, you will notice that Task Manager doesn't show a Startup tab. 
 
-## Chage the UAC Settings
+
+
+## Computer Management
+
+We're continuing with Tools that are available through the System Configuration panel.
+The Computer Management (compmgmt) utility has three primary sections: System Tools, Storage, and Services and Applications.
+
+System Tools
+Let's start with Task Scheduler. Per Microsoft, with Task Scheduler, we can create and manage common tasks that our computer will carry out automatically at the times we specify.
+A task can run an application, a script, etc., and tasks can be configured to run at any point. A task can run at log in or at log off. Tasks can also be configured to run on a specific 
+schedule, for example, every five mins.
+To create a basic task, click on Create Basic Task under Actions (right pane).
+
+Next is Event Viewer.
+
+Event Viewer allows us to view events that have occurred on the computer. These records of events can be seen as an audit trail that can be used to understand the activity of the computer system. 
+This information is often used to diagnose problems and investigate actions executed on the system. 
+
+The standard logs are visible under Windows Logs. Below is a table from docs.microsoft.com(8) providing a brief description for each.
+
+Shared Folders is where you will see a complete list of shares and folders shared that others can connect to. 
+In the above image, under Shares, are the default share of Windows, C$, and default remote administration shares created by Windows, such as ADMIN$. 
+As with any object in Windows, you can right-click on a folder to view its properties, such as Permissions (who can access the shared resource). 
+Under Sessions, you will see a list of users who are currently connected to the shares. In this VM, you won't see anybody connected to the shares.
+All the folders and/or files that the connected users access will list under Open Files.
+The Local Users and Groups section you should be familiar with from Windows Fundamentals 1 because it's lusrmgr.msc.
+In Performance, you'll see a utility called Performance Monitor (perfmon).
+Perfmon is used to view performance data either in real-time or from a log file. This utility is useful for troubleshooting performance issues on a computer system, whether local or remote. 
+
+Device Manager allows us to view and configure the hardware, such as disabling any hardware attached to the computer.
+
+Storage  
+
+Under Storage is Windows Server Backup and Disk Management. We'll only look at Disk Management in this room.
+Note: Since the virtual machine is a Windows Server operating system, there are utilities available that you will typically not see in Windows 10.  
+
+Disk Management is a system utility in Windows that enables you to perform advanced storage tasks.  Some tasks are:
+    Set up a new drive
+    Extend a partition
+    Shrink a partition
+    Assign or change a drive letter (ex. E:) 
+
+## System Information
+
+We're continuing with Tools that are available through the System Configuration panel.
+What is the System Information (msinfo32) tool?
+Per Microsoft, "Windows includes a tool called Microsoft System Information (Msinfo32.exe).  This tool gathers information about your computer and displays a comprehensive view of your hardware, system components, and software environment, which you can use to diagnose computer issues."
+The  information in System Summary is divided into three sections:
+    Hardware Resources
+    Components
+    Software Environment
+System Summary will display general technical specifications for the computer, such as processor brand and model.
+
+he information displayed in Hardware Resources is not for the average computer user. If you want to learn more about this section, refer to the official Microsoft page(9).
 
