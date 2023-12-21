@@ -33,6 +33,7 @@ Introduction to Cyber Security
             Original Overview of Pathway                 |                    Recommended Edits to Path                    
 ------------------------------------------------------------------------------------------------------------------------
 
-                    Pre Security
-                    Jr Penetration Tester
+                Pre Security                                                      Pre Security
+                Jr Penetration Tester                                             Introduction to Cyber Security
+                Offensive Pentesting      
                     
