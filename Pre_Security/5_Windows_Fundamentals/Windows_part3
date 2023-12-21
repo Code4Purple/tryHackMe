@@ -96,12 +96,14 @@ Ransomware protection
 
     Controlled folder access - Ransomware protection requires this feature to be enabled, which in turn requires Real-time protection to be enabled.
 
-Note: Real-time protection is turned off in the attached VM to decrease the chances of performance issues. Since the VM can't reach the Internet and there aren't any threats in the VM, this is safe to do. Real-time protection should definitely be enabled in your personal Windows devices unless you have a 3rd party product that provides the same protection. Ensure it's always up-to-date and enabled.  
+Note: Real-time protection is turned off in the attached VM to decrease the chances of performance issues. Since the VM can't reach the Internet and there aren't any threats in the VM, this is safe to do. Real-time protection should definitely be enabled in your personal Windows devices unless you have a 3rd party product that provides the same protection. 
+Ensure it's always up-to-date and enabled.  
 
 Tip: You can perform on-demand scans on any file/folder by right-clicking the item and selecting 'Scan with Microsoft Defender'.
 
-
-## Firewall & Network Protection
+--------------------------------------------------------
+        Firewall & Network Protection
+--------------------------------------------------------
 
 What is a firewall?
 
@@ -132,11 +134,59 @@ Tip: Command to open the Windows Defender Firewall is WF.msc.
 ## App and Browser control
 
 In this section, you can change the settings for the Microsoft Defender SmartScreen.
-
 Per Microsoft, "Microsoft Defender SmartScreen protects against phishing or malware websites and applications, and the downloading of potentially malicious files".
-
 Refer to the official Microsoft document for more information on Microsoft Defender SmartScreen here(14). 
+    
+    Check apps and files
+Windows Defender SmartScreen helps protect your device by checking for unrecognized apps and files from the web.
 
-Check apps and files
+    Exploit protection
+Exploit protection is built into Windows 10 (and, in our case, Windows Server 2019) to help protect your device against attacks. 
 
-    Windows Defender SmartScreen helps protect your device by checking for unrecognized apps and files from the web. 
+Warning: Unless you are 100% confident in what you are doing, it is recommended that you leave the default settings. 
+
+## Device Security
+
+Even though you'll probably never change any of these settings, for completion's sake, it will be covered briefly.
+
+    Core isolation
+Memory Integrity - Prevents attacks from inserting malicious code into high-security processes.
+Warning: Unless you are 100% confident in what you are doing, it is recommended that you leave the default settings. 
+
+Security processor
+Below are the Security processor details.
+What is the Trusted Platform Module (TPM)?
+
+Per Microsoft, "Trusted Platform Module (TPM) technology is designed to provide hardware-based, security-related functions. 
+A TPM chip is a secure crypto-processor that is designed to carry out cryptographic operations. 
+The chip includes multiple physical security mechanisms to make it tamper-resistant, and malicious software is unable to tamper with the security functions of the TPM".
+
+## Bitlocker
+
+What is BitLocker?
+
+Per Microsoft, "BitLocker Drive Encryption is a data protection feature that integrates with the operating system and addresses the threats of data theft or exposure from lost, stolen, or inappropriately decommissioned computers".
+
+On devices with TPM installed, BitLocker offers the best protection.
+
+Per Microsoft, "BitLocker provides the most protection when used with a Trusted Platform Module (TPM) version 1.2 or later. 
+The TPM is a hardware component installed in many newer computers by the computer manufacturers. 
+It works with BitLocker to help protect user data and to ensure that a computer has not been tampered with while the system was offline".
+
+Refer to the official Microsoft documentation to learn more about BitLocker here(15). 
+
+## Volume Shadow Copy Service
+
+Per Microsoft(16), the Volume Shadow Copy Service (VSS) coordinates the required actions to create a consistent shadow copy (also known as a snapshot or a point-in-time copy) of the data that is to be backed up. 
+Volume Shadow Copies are stored on the System Volume Information folder on each drive that has protection enabled.
+
+If VSS is enabled (System Protection turned on), you can perform the following tasks from within advanced system settings. 
+
+            Create a restore point
+            Perform system restore
+            Configure restore settings
+            Delete restore points
+
+From a security perspective, malware writers know of this Windows feature and write code in their malware to look for these files and delete them. 
+Doing so makes it impossible to recover from a ransomware attack unless you have an offline/off-site backup.
+
