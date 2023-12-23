@@ -6,8 +6,8 @@ This is a Cyber Security documention about my knowledge of Penetration Tester an
                                                 Certifications Completed
 ------------------------------------------------------------------------------------------------------------------------
             
-Pre Security Certification :     https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-AMTA5CF8XW.png
-Introduction to Cyber Security : https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-WA4ZDEKAMD.png
+1. Pre Security Certification     : https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-AMTA5CF8XW.png
+2. Introduction to Cyber Security : https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-WA4ZDEKAMD.png
 
 
 
