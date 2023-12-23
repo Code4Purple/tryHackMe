@@ -17,8 +17,8 @@ This is a Cyber Security documention about my knowledge of Penetration Tester an
                                               In progress for Certications
 -------------------------------------------------------------------------------------------------------------------------
 
-Introduction to Cyber Security 
-Jr Penetration Tester
+1. Introduction to Cyber Security 
+2. Jr Penetration Tester
 
 
 
