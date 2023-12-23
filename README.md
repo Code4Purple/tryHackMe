@@ -1,5 +1,5 @@
 # tryHackMe
-This is a Cyber Security documention about my knowledge of Penetration Tester and what sounds that topic.
+This where my Cyber Security knowledge will live. This will show process and certifications involving hacking.
 
 
 ------------------------------------------------------------------------------------------------------------------------
