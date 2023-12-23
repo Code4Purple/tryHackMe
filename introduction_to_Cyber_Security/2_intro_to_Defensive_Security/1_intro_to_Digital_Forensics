@@ -52,4 +52,5 @@ Reporting: The digital forensics investigation is concluded with a report that s
 --------------------------------
         New Commands
 --------------------------------
-pdfinfo <document-name>.pdf      -> install command : sudo apt install poppler-utils
+pdfinfo <document-name>.pdf              -> install command : sudo apt install poppler-utils
+exiftool <image-name>.<img type>         -> install command : sudo apt install libimage-exiftool-perl
