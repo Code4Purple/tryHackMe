@@ -45,3 +45,15 @@ Customer Signup ( /customers/signup ) :
 Customer Reset Password ( /customers/reset ) : 
     Password reser form with an email address input field.
 
+Customer Dashboard ( /customers ) :
+    This page contains a list of the user's tickets submitted to the IT support company 
+    and a "Create Ticket" button.
+
+Create Ticket ( /customers/ticket/new ) :
+    This page contains a form with a textbox for entering the issue and a file upload option to create an IT support ticket.
+
+Customer Account ( /customers/account ) :
+    This page allows the user to edit their username, email, and password.
+
+
+
