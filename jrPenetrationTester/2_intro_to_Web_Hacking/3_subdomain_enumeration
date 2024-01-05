@@ -40,7 +40,7 @@ We can utilise this host header by making changes to it and monitoring the respo
 
 Like with DNS Bruteforce, we can automate this process by using a wordlist of commonly used subdomains.
 
-## Examples of Commands ussed in Attacking the Acme IT Support website to get subdomain.
+### Examples of Commands ussed in Attacking the Acme IT Support website to get subdomain.
 
 Command : ffuf -w /usr/share/wordlists/SecLists/Discovery/DNS/namelist.txt -H "Host: FUZZ.acmeitsupport.thm" -u http://10.10.194.84
 
