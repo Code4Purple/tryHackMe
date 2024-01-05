@@ -71,7 +71,7 @@ Being able to view or modify someone else’s account by using its unique identi
 Being able to browse pages that require authentication (logging in) as an unauthenticated user. For example, we cannot let anyone view the webmail before logging in.
 
 --------------------------------------------------------------------------------------------
-                                        Injection
+                                Injection
 ---------------------------------------------------------------------------------------------
 An injection attack refers to a vulnerability in the web application where the user can insert malicious code as part of their input. 
 One cause of this vulnerability is the lack of proper validation and sanitization of the user’s input.
