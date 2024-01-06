@@ -73,3 +73,5 @@ for example, an age field that is expecting an integer from a dropdown menu, but
 Once you've found some data which is being stored in the web application,  you'll then need to confirm that you can successfully run your JavaScript payload; your payload will be dependent on where in the application your code is reflected 
 (you'll learn more about this in task 6).
 
+## DOM Based XSS
+
