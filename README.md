@@ -21,7 +21,7 @@ This where my Cyber Security knownledge will live. This will show process and ce
 ------------------------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------------------------------
-            Original Overview of Pathway                 |                    Recommended Edits to Path                    
+            Original Overview of the Pathway                 |                Recommended Pathway to take                    
 ------------------------------------------------------------------------------------------------------------------------
 
                 Pre Security                                                      Pre Security
