@@ -1,0 +1,15 @@
+Source of Info : https://www.comptia.org/blog/best-certifications-for-ethical-hackers
+
+Pathway for Certifications :
+
+1) CompTIA Network+  
+2) CompTIA Security+
+
+Not needed but can be useful before you get...
+
+3) Certified Ethical Hacker (CEH) Certification
+
+Other Certifcations to look good on the Resume...
+
+4) Offensive Security Certified Professional (OSCP)
+5) Computer Hacking Forensic Investigator (CHFI) 
