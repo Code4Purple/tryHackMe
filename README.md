@@ -1,23 +1,24 @@
 # tryHackMe
-This is a Cyber Security documention about my knowledge of Penetration Tester and what sounds that topic.
+This where my Cyber Security knowledge will live. This will show process and certifications involving hacking.
 
 
 ------------------------------------------------------------------------------------------------------------------------
                                                 Certifications Completed
 ------------------------------------------------------------------------------------------------------------------------
             
-Pre Security Certification : https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-AMTA5CF8XW.png
+1. Pre Security Certification     : https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-AMTA5CF8XW.png
+2. Introduction to Cyber Security : https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-WA4ZDEKAMD.png
 
 
 
 
 
 -------------------------------------------------------------------------------------------------------------------------
-                                              In progress for Certications
+                                              In progress for Certifications
 -------------------------------------------------------------------------------------------------------------------------
 
-Introduction to Cyber Security 
-
+1. Introduction to Cyber Security 
+2. Jr Penetration Tester
 
 
 
@@ -26,7 +27,7 @@ Introduction to Cyber Security
 
 
 ------------------------------------------------------------------------------------------------------------------------
-                                                Cyber Security Path 
+                                                Cyber Security Path Shown
 ------------------------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -35,5 +36,5 @@ Introduction to Cyber Security
 
                 Pre Security                                                      Pre Security
                 Jr Penetration Tester                                             Introduction to Cyber Security
-                Offensive Pentesting      
+                Offensive Pentesting                                              Jr Penetration Tester
                     
